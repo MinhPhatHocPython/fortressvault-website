@@ -7,7 +7,7 @@ export function Download() {
         <h2 className="section-title">Bắt đầu ngay hôm nay</h2>
         <p className="section-desc mb-8">Tải xuống Fortress Vault cho Windows và bắt đầu bảo vệ mật khẩu của bạn trong vài phút.</p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Button variant="primary" className="text-lg px-8 py-4">
+          <Button variant="primary" className="text-lg px-8 py-4" href="https://github.com/MinhPhatHocPython/fortress-vault/releases/download/v1.0.1/PasswordVault_Setup.exe" download>
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
             Tải xuống cho Windows
           </Button>
