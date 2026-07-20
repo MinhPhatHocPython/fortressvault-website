@@ -49,7 +49,7 @@ Fortress Vault sử dụng PBKDF2 với 100.000 vòng lặp để dẫn xuất k
 Tải file cài đặt từ trang chủ fortressvault.tech hoặc từ GitHub Releases.
 
 ### Bước 2: Cài đặt
-Chạy file PasswordVault_Setup_v1.1.1.exe và làm theo hướng dẫn. Bạn có thể chọn thư mục cài đặt tùy ý.
+Chạy file PasswordVault_Setup_v1.1.0.exe và làm theo hướng dẫn. Bạn có thể chọn thư mục cài đặt tùy ý.
 
 ### Bước 3: Thiết lập Master Password
 Khi mở ứng dụng lần đầu, bạn sẽ được yêu cầu tạo Master Password. Đây là mật khẩu duy nhất bạn cần nhớ.
