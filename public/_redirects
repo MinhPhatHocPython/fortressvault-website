@@ -1,2 +1,3 @@
 /* /index.html 200
-/downloads/* https://github.com/MinhPhatHocPython/fortress-vault/releases/latest 302
+/downloads/latest  https://github.com/MinhPhatHocPython/fortress-vault/releases/latest/download/PasswordVault_Setup.exe 302
+/downloads/*       https://github.com/MinhPhatHocPython/fortress-vault/releases/latest 302
