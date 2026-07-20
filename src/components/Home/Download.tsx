@@ -24,7 +24,7 @@ export function Download() {
           <span className="mx-2">•</span>
           <span>Hỗ trợ Windows 10/11</span>
           <span className="mx-2">•</span>
-          <span>Dung lượng ~50MB</span>
+          <span>Dung lượng ~77MB</span>
         </div>
       </div>
     </section>

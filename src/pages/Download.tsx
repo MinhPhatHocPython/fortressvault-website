@@ -17,8 +17,8 @@ export default function DownloadPage() {
             <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
           </div>
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Windows 10/11</h2>
-          <p className="text-gray-600 dark:text-text-secondary mb-6">Portable • ~108MB</p>
-          <Button variant="primary" className="text-lg px-8 py-4" href="https://github.com/MinhPhatHocPython/fortress-vault/releases/latest/download/FortressVault_v1.0.1_portable.zip" download>
+          <p className="text-gray-600 dark:text-text-secondary mb-6">Trình cài đặt • ~77MB</p>
+          <Button variant="primary" className="text-lg px-8 py-4" href="https://github.com/MinhPhatHocPython/fortress-vault/releases/download/v1.0.1/PasswordVault_Setup.exe" download>
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
             Tải xuống v1.0.1
           </Button>
@@ -28,7 +28,7 @@ export default function DownloadPage() {
           <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Hướng dẫn cài đặt</h3>
           <div className="space-y-4">
             {[
-              { step: '1', title: 'Tải file cài đặt', desc: 'Nhấn nút tải xuống ở trên để lấy file FortressVault_v1.0.1_portable.zip.' },
+              { step: '1', title: 'Tải file cài đặt', desc: 'Nhấn nút tải xuống ở trên để lấy file PasswordVault_Setup_v1.0.1.exe.' },
               { step: '2', title: 'Chạy trình cài đặt', desc: 'Mở file vừa tải và làm theo hướng dẫn. Bạn có thể chọn thư mục cài đặt tùy ý.' },
               { step: '3', title: 'Tạo Master Password', desc: 'Lần đầu chạy ứng dụng, tạo Master Password để bảo vệ kho mật khẩu của bạn.' },
             ].map(item => (
